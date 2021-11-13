@@ -36,6 +36,7 @@ def read_write_id(mode,data=None):
 
 
 
+
 """
     Function to send webHook to Discord
 
@@ -53,7 +54,7 @@ def sendWebHook(notice):
             "name": f"{message_author['firstname']} {message_author['lastname']}"
         },
         "footer": {
-            "text": f"Notice Created at : {notice['createdAt']}\nWebhook Source Code :  https://github.com/dineshtiwari69/"
+            "text": f"Notice Created at : {notice['createdAt']}\nWebhook Source Code :  https://github.com/dineshtiwari69/CampusWebhook"
         }
         }
     ]
